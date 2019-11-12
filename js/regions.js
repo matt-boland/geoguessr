@@ -14,8 +14,8 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'matt',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -25,8 +25,19 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'chris',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'CA'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -49,8 +60,8 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'matt',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -60,8 +71,19 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'chris',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'GB'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -84,8 +106,8 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'matt',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -95,8 +117,19 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'chris',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'ZA'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -119,8 +152,8 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'matt',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -130,8 +163,19 @@ const REGIONS_PAGE_CONFIG = {
         }, {
             player: 'chris',
             query: {
-                queryType: 'average',
-                query: queries.raw.province.average,
+                queryType: 'best',
+                query: queries.raw.province.best,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'BR'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'best',
+                query: queries.raw.province.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -164,6 +208,17 @@ const REGIONS_PAGE_CONFIG = {
             }
         }, {
             player: 'chris',
+            query: {
+                queryType: 'best',
+                query: queries.raw.province.best,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'RU'
+            }
+        }, {
+            player: 'eric',
             query: {
                 queryType: 'best',
                 query: queries.raw.province.best,
