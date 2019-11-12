@@ -4,7 +4,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'all',
             query: {
                 queryType: 'average',
-                query: queries.raw.province.average,
+                query: queries.raw.us.average,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -15,7 +15,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'matt',
             query: {
                 queryType: 'average', 
-                query: queries.raw.province.average,
+                query: queries.raw.us.average,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -26,7 +26,18 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'chris',
             query: {
                 queryType: 'average',
-                query: queries.raw.province.average,
+                query: queries.raw.us.average,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'US'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'average',
+                query: queries.raw.us.average,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -39,7 +50,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'all',
             query: {
                 queryType: 'perfects', 
-                query: queries.raw.province.best,
+                query: queries.raw.us.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -50,7 +61,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'matt',
             query: {
                 queryType: 'perfects', 
-                query: queries.raw.province.best,
+                query: queries.raw.us.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -61,7 +72,18 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'chris',
             query: {
                 queryType: 'perfects',
-                query: queries.raw.province.best,
+                query: queries.raw.us.best,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'US'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'perfects',
+                query: queries.raw.us.best,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -74,7 +96,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'all',
             query: {
                 queryType: 'identified', 
-                query: queries.raw.province.identified,
+                query: queries.raw.us.identified,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -85,7 +107,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'matt',
             query: {
                 queryType: 'identified', 
-                query: queries.raw.province.identified,
+                query: queries.raw.us.identified,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -96,7 +118,18 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'chris',
             query: {
                 queryType: 'identified',
-                query: queries.raw.province.identified,
+                query: queries.raw.us.identified,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'US'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'identified',
+                query: queries.raw.us.identified,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -109,7 +142,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'all',
             query: {
                 queryType: 'misidentified', 
-                query: queries.raw.province.misidentified,
+                query: queries.raw.us.misidentified,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -120,7 +153,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'matt',
             query: {
                 queryType: 'misidentified', 
-                query: queries.raw.province.misidentified,
+                query: queries.raw.us.misidentified,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -131,7 +164,18 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'chris',
             query: {
                 queryType: 'misidentified',
-                query: queries.raw.province.misidentified,
+                query: queries.raw.us.misidentified,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'US'
+            }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'misidentified',
+                query: queries.raw.us.misidentified,
             },
             sheet: SHEETS.raw,
             chart: {
@@ -144,7 +188,7 @@ const UNITED_STATES_PAGE_CONFIG = {
             player: 'all',
             query: {
                 queryType: 'all',
-                query: queries.raw.province.pivot,
+                query: queries.raw.us.pivot,
             },
             sheet: SHEETS.raw,
             chart: {
