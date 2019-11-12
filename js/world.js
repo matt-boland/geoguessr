@@ -33,6 +33,17 @@ const WORLD_PAGE_CONFIG = {
                 chartType: 'geo',
                 chartSubType: 'world'
             }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'average',
+                query: queries.raw.country.average,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'world'
+            }
         }]
     }, {
         charts: [{
@@ -59,6 +70,17 @@ const WORLD_PAGE_CONFIG = {
             }
         }, {
             player: 'chris',
+            query: {
+                queryType: 'perfects',
+                query: queries.raw.country.best,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'world'
+            }
+        }, {
+            player: 'eric',
             query: {
                 queryType: 'perfects',
                 query: queries.raw.country.best,
@@ -104,7 +126,7 @@ const WORLD_PAGE_CONFIG = {
                 chartSubType: 'world'
             }
         }, {
-            player: 'mark',
+            player: 'eric',
             query: {
                 queryType: 'best',
                 query: queries.raw.country.best,
@@ -149,6 +171,17 @@ const WORLD_PAGE_CONFIG = {
                 chartType: 'geo',
                 chartSubType: 'world'
             }
+        }, {
+            player: 'eric',
+            query: {
+                queryType: 'identified',
+                query: queries.raw.country.identified,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'world'
+            }
         }]
     }, {
         charts: [{
@@ -175,6 +208,17 @@ const WORLD_PAGE_CONFIG = {
             }
         }, {
             player: 'chris',
+            query: {
+                queryType: 'misidentified',
+                query: queries.raw.country.misidentified,
+            },
+            sheet: SHEETS.raw,
+            chart: {
+                chartType: 'geo',
+                chartSubType: 'world'
+            }
+        }, {
+            player: 'eric',
             query: {
                 queryType: 'misidentified',
                 query: queries.raw.country.misidentified,
